@@ -1,0 +1,233 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	color: #4a4a4a;
+	margin: 0px;
+	padding: 0px;
+}
+
+#center {
+	padding: 0px;
+	margin: 0px;
+}
+
+/*------top------*/
+
+#top {
+	background-image: url(../images/header.jpg);
+	background-size: 100%;
+	width: 100%;
+	height: 748px;
+	background-repeat: no-repeat;
+	background-position: bottom right;
+}
+
+header img {
+	width: 150px;
+	margin-top: 75px;
+	margin-left: 101px;
+}
+
+#navbar {
+	margin-top: 60px;
+	margin-right: 60px;
+	float: right;
+}
+
+#navbar ul {
+	
+	list-style-type: none;
+}
+
+#navbar ul li {
+	color: #b2b2b2;
+	float: left;
+	padding: 35px;
+	display: block;
+}
+
+#navbar ul li a {
+	text-decoration: none;
+}
+
+#navbar ul li a:active{
+	color: #b2b2b2;
+}
+
+#navbar ul li a:visited{
+	color: #4A4A4A;
+}
+
+#navbar ul li a img {
+	padding: 0px;
+	margin: 0px;
+	width: 27px;
+	height: 27px;
+}
+
+h1 {
+	font-weight: normal;
+	color: #4A4A4A;
+	font-size: 100px;
+	letter-spacing: 5px;
+	margin-top: 150px;
+	text-align: center;
+}
+
+/*------About------*/
+
+#about {
+	margin-left: 180px;
+	margin-right: 180px;
+	margin-bottom: 80px;
+}
+
+#us {
+	float: left;
+}
+
+h2 {
+	font-size: 40px;
+	padding-top: 20px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+#us p {
+	font-size: 18px;
+}
+
+#spec {
+	float: left;
+	margin-left: 143px;
+	margin-right: 143px;
+}
+
+#spec p {
+	margin-top: 0px;
+	font-size: 20px;
+	color: #4A4A4A;
+	font-weight: bold;
+}
+
+#about h3 {
+	font-size: 30px;
+	color: #9B9B9B;
+}
+
+.image {
+	margin-bottom: 0px;
+	width: 51px;
+}
+
+#img {
+	margin-top: 35px;
+	width: 353px;
+	height: 375px;
+	float: none;
+}
+
+/*------kategori------*/
+
+#kategori h2 {
+	float: none;
+	padding-left: 180px;
+	padding-right: 180px;
+	padding-bottom: 30px;
+	padding-top: 20px;
+	background-color: #F3F3F3;
+}
+
+#category {
+	text-align: center;
+	text-decoration: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+#category a {
+	text-decoration: none;
+	padding: 300px 140px;
+	width: 99px;
+	float: left;
+	transition: background 0.4s ease-in-out;
+}
+
+#bath {
+	background-image: url(../images/bathroom.jpg);
+	background-repeat: no-repeat;
+	background-size: 180%;
+	background-position: bottom right;
+}
+
+#kitchen {
+	background-image: url(../images/kitchen.jpg);
+	background-repeat: no-repeat;
+	background-size: 110%;
+	background-position: bottom right;
+}
+
+#bad {
+	background-image: url(../images/bedroom.jpg);
+	background-repeat: no-repeat;
+	background-size: 120%;
+	background-position: bottom right;
+}
+
+#living {
+	background-image: url(../images/livingroom.jpg);
+	background-repeat: no-repeat;
+	background-size: 240%;
+	background-position: bottom right;
+}
+
+#category h3 {
+	position: absolute;
+	padding: 300px 140px;
+	margin: -300px -140px;
+	width: 99px;
+	height: 0px;
+	text-align: center;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.4);
+	transition: background 0.4s ease-in-out;
+}
+
+#category a:active {
+	color: #ffffff;
+}
+
+#category a:hover {
+	background-size: 220%;
+}
+
+#category #kit a:hover {
+	background-size: 130%;
+}
+
+#category #bed a:hover {
+	background-size: 140%;
+}
+
+#category #live a:hover {
+	background-size: 280%;
+}
+
+#category a:visited {
+	color: #FFFFFF;
+}
+
+#category h3:hover {
+	color: transparent;
+	background-color: rgba(0,0,0,0.00);
+}
+
+footer {
+	background-color: #F3F3F3;
+	text-align: center;
+	padding-top: 630px;
+	padding-bottom: 30px;
+	margin: 0px;
+}
